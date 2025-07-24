@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific
+*.sqlite3
+db.sqlite3
+
+# Environment variables / secrets
+.env
+
+# macOS
+.DS_Store
+
+# VSCode or other editor settings (optional)
+.vscode/
+.idea/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Migrations (optional — include them if you're sharing the app)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+# **/migrations/*.py   ← uncomment to exclude migration scripts (not recommended for team projects)
+
+# Logs
+*.log
+
+# Coverage or test output
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.cache
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
